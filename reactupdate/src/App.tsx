@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactUpdate from './components/ReactUpdate'
+import ReactUpdate from './components/PizzaUpdate'
 
 
 const App = () => {
