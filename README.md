@@ -1,9 +1,9 @@
 # <b>Mini Challenge 8 React Update</b>
 
-<b>Name:</b> Alicia Bryant<br>
-<b>Project:</b>React Update<br>
-<b>Date:</b> 05/23/2024 <br>
-<strong>Description:</strong><br>
+<b>Name: </b> Alicia Bryant<br>
+<b>Project: </b>React Update<br>
+<b>Date: </b> 05/23/2024 <br>
+<strong>Description: </strong><br>
 
 <b>Exercise 1:</b> Add a button for the user to click that will update the Name 'David' to 'Aaron'<br>
 <b>UpdatePizza</b> - Add a button to add 'Cheese' to the Pizza toppings<br>
