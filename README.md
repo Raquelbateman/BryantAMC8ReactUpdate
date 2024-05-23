@@ -13,7 +13,7 @@
 Find two bugs and fix them.
 <br><br>
 <b>GitHub :</b>https://github.com/Raquelbateman/BryantAMC8ReactUpdate<br><br>
-<b>Bugs That Were Dealt With:</b>
+<b>Bugs That Were Dealt With:</b><br>
 1. 
 2.
 
