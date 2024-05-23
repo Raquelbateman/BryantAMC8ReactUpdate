@@ -1,16 +1,16 @@
-import React from 'react'
-import ReactUpdate from './components/PizzaUpdate'
+import { useState } from 'react'
+import PizzaUpdate from './components/PizzaUpdate'
 
 
 const App = () => {
   return (
 
-
+  
 
 
     <>
     
-    <ReactUpdate/>
+   <PizzaUpdate/>
     
     
     
