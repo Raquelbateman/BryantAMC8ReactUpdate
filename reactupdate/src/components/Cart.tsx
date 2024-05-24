@@ -1,25 +1,36 @@
-import { useState } from 'react'
+import { useState } from 'react';
 
-//Update the cart object items of id 1 to show a  quanity 2 with  a button click
 const Cart = () => {
+  const [cart, setCart] = useState({
+    discount: 0.1,
+    items: [
+      { id: 1, title: 'Blue Cheese Olives', quantity: 1 },
+      { id: 2, title: 'Orange Juice', quantity: 1 },
+    ],
+  });
 
-    const [cart, setCart] = useState({
-       discount: .1,
-       items: [
-        {id: 1, title: 'Orange Juice', quantity: 1},
-        {id: 2, title: 'Blue Cheese Olives', quantity: 1}
-       ] 
-    })
+  const handleClick = () => {
+    setCart((prevCart) => ({
+      ...prevCart,
+      items: prevCart.items.map((item) =>
+        item.id === 1 ? { ...item, quantity: 2 } : item
+      ),
+    }));
+  };
 
-    const handleClick =() => {
-       
-    }
   return (
     <>
-      {/* Title, show items, button to handle the update Update Cart  */}
-      
+      <h2>Cart</h2>
+      <ul>
+        {cart.items.map((item) => (
+          <li key={item.id}>
+            {item.title} - Quantity: {item.quantity}
+          </li>
+        ))}
+      </ul>
+      <button onClick={handleClick}>Update Cart</button>
     </>
-  )
-}
+  );
+};
 
-export default Cart
+export default Cart;
