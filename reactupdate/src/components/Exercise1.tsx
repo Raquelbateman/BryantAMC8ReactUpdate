@@ -8,9 +8,20 @@ const Exercise1 = () => {
     },
   });
 
-  return (
-    <div>Exercise1</div>
-  )
-}
+  const handleClick = () => {
+    setGame({ ...game, player: { ...game.player, name: "Alicia" } });
+  };
 
-export default Exercise1
+  return (
+    <>
+      <div className="container">
+        <div className="row">
+          <span>{game.player.name}</span>
+          <button onClick={handleClick}>Change Name</button>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Exercise1;
