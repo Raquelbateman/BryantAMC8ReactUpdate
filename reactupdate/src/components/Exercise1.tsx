@@ -4,12 +4,12 @@ const Exercise1 = () => {
   const [game, setGame] = useState({
     id: 1,
     player: {
-      name: "Alicia",
+      name: "David",
     },
   });
 
   const handleClick = () => {
-    setGame({ ...game, player: { ...game.player, name: "Ella" } });
+    setGame({ ...game, player: { ...game.player, name: "A-Aron" } });
   };
 
   return (
