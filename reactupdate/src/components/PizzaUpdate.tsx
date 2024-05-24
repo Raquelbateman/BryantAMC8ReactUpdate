@@ -4,12 +4,12 @@ import { useState } from "react";
 const PizzaUpdate = () => {
   const [pizza, setPizza] = useState({
     name: 'The Ghostface Special',
-    toppings:['Pepperoni,','Cheese']
+    toppings:['Pepperoni ',' Cheese']
 
   });
 
   const handleClick = () => {    
-  setPizza({...pizza, toppings:[...pizza.toppings, ',Black Olives']})
+  setPizza({...pizza, toppings:[...pizza.toppings, ' Black Olives']})
 
 
   }
