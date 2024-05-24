@@ -13,12 +13,11 @@
 Find two bugs and fix them.
 <br><br>
 <b>GitHub :</b>https://github.com/Raquelbateman/BryantAMC8ReactUpdate<br><br>
-<b>Bugs That Were Dealt With:</b><br>
-1. <br>
-2.
+<br>
+  
 
-<b>Peer Reviewed by:</b> <br>
-<b>Comments:</b>   <br>
+<b>Peer Reviewed by:</b> Aaron Perez <br>
+<b>Comments:</b> The 3 buttons work as required, button updates name, button adds to quantity, and button adds cheese. Works great. Good job!!!!    <br>
 
 <br>
 <br>
