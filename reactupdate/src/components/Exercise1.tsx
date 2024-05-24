@@ -9,7 +9,7 @@ const Exercise1 = () => {
   });
 
   const handleClick = () => {
-    setGame({ ...game, player: { ...game.player, name: "Alicia" } });
+    setGame({ ...game, player: { ...game.player, name: "Ella" } });
   };
 
   return (
