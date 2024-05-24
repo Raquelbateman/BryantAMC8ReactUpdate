@@ -6,8 +6,8 @@ const Cart = () => {
     const [cart, setCart] = useState({
        discount: .1,
        items: [
-        {id: 1, title: 'Product 1', quantity: 1},
-        {id: 2, title: 'Product 2', quantity: 1}
+        {id: 1, title: 'Orange Juice', quantity: 1},
+        {id: 2, title: 'Blue Cheese Olives', quantity: 1}
        ] 
     })
 
@@ -15,10 +15,10 @@ const Cart = () => {
        
     }
   return (
-    <div>
+    <>
       {/* Title, show items, button to handle the update Update Cart  */}
       
-    </div>
+    </>
   )
 }
 
