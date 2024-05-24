@@ -10,10 +10,10 @@ const Cart = () => {
   });
 
   const handleClick = () => {
-    setCart((prevCart) => ({
-      ...prevCart,
-      items: prevCart.items.map((item) =>
-        item.id === 1 ? { ...item, quantity: item.quantity+1 } : item
+    setCart((oldCart) => ({
+      ...oldCart,
+      items: oldCart.items.map((item) =>
+        item.id == 1 ? { ...item, quantity: item.quantity+1 } : item
       ),
     }));
   };
